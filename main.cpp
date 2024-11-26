@@ -1,8 +1,10 @@
-#include <iostream>
+#include "hello/hello.h"
+#include "world.h"
 
 using namespace std;
 
 int main() {
-    cout << "hello world" << endl;
+    Hello();
+    World();
     return 0;
 }
